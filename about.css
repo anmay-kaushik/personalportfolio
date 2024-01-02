@@ -1,0 +1,142 @@
+
+.contact form {
+	width: 66%;
+	margin: 0px auto;
+}
+.contact input,
+textarea {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 10px;
+	border: 1px solid #a1a1a1;
+}
+.contact textarea {
+	height: 80px;
+}
+.contact button {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+	height: 40px;
+	padding: 10px;
+	background: #0d0d0b;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+}
+
+
+
+.contact h3 {
+
+	font-size: 26px;
+	text-align: center;
+	margin-top: 60px;
+	color: #ffbf35;
+}
+.contact h4 {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 10px;
+}
+.contact p {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.main-section {
+	width: 100%;
+	float: left;
+	padding: 110px 0px 110px 0px;
+    background-color: rgb(129, 75, 217);
+}
+.width-100 {
+	width: 100%;
+	float: left;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.heading-text {
+	width: 100%;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: #0f1011;
+}
+.about-img {
+	width: 70%;
+	padding: 0px 50px;
+	margin-top: 20px;
+    border-radius: 90px;
+    background-size: 29px;
+    
+}
+.about-us {
+	width: 70%;
+	float: left;
+	padding: 50px;
+}
+.about-us p {
+	font-size: 16px;
+	margin-top: 15px;
+	line-height: 27px;
+}
+table {
+	width: 100%;
+}
+table th,
+table td {
+	font-size: 16px;
+	text-align: left;
+	padding: 5px 0px;
+}
+
+ /* My Skills */
+ .skills{
+   background: #F0F8FF;
+ }
+ .skills .content{
+   padding: 40px 0;
+ }
+ .skills .skills-details{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .skills-details .text{
+   width: 50%;
+   font-style: oblique;
+ }
+ .skills-details p{
+   color: #0E2431;
+   text-align: justify;
+   font-style: italic;
+ }
+.skills .skills-details .experience{
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.skills-details .boxes{
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skills-details .box{
+  width: calc(100% / 2 - 20px);
+  margin: 20px 0;
+}
+.skills-details .boxes .topic{
+  font-size: 20px;
+  color: #be1cdf;
+}
+.skills-details .boxes .per{
+  font-size: 60px;
+  color: #cd40f4;
+}
